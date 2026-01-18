@@ -173,3 +173,30 @@ Feature correlation plots
 PCA / t-SNE projections for song embeddings
 
 🏗️ Project Structure
+
+music-analysis-ml/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── notebooks/
+│   ├── 01_audio_eda.ipynb
+│   ├── 02_feature_extraction.ipynb
+│   ├── 03_genre_classification.ipynb
+│   ├── 04_emotion_detection.ipynb
+│
+├── src/
+│   ├── audio_features.py
+│   ├── preprocessing.py
+│   ├── train_genre_model.py
+│   ├── train_emotion_model.py
+│   ├── similarity_engine.py
+│
+├── models/
+├── reports/
+│   └── figures/
+│
+├── requirements.txt
+└── README.md
+
